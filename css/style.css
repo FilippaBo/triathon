@@ -229,7 +229,11 @@ list-style-type:none;
   margin-bottom: 10%;
   text-align: center;
 }
-
+/*
+Turn off parallax scrolling for phones r*/
+#bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6  {
+  background-attachment: scroll;
+}
 
  }
 /*tri börjar*/
@@ -267,7 +271,7 @@ list-style-type:none;
 
 .bgimg-5 {
   background-image: url("../img/oscar.jpg");
-  min-height: 400px;
+  min-height: 100%;
 }
 
 .bgimg-6 {
@@ -287,8 +291,8 @@ list-style-type:none;
 .caption span.border , #toppenknapp{
   background-color: #282E34;
   color: #ddd;
-  padding: 18px;
-  font-size: 25px;
+  padding: 2%;
+  font-size: 170%;
   letter-spacing: 10px;/*kan man göra utan px?*/
 }
 
@@ -321,12 +325,7 @@ text-align: ;
 
 
 
- Turn off parallax scrolling for tablets and phones
-@media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-  }
-}
+
 
 
 /*tri slutar*/
