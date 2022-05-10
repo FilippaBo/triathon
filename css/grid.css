@@ -85,7 +85,7 @@
 /*tavlingar html för standard mobil size (480px) */
  @media only screen and (max-width: 480px) {
 
-   .racecontainer{
+   .racecontainer, .tricontainer, .container {
      display:grid;
      grid-template-columns: repeat(2, 1fr);
      grid-auto-rows: minmax(50px, auto);
@@ -97,6 +97,8 @@
      grid-row:1/2;
    }
 
+
+   /*tavlingar.html*/
 
    .tavlingar{
      grid-column:1/-1;
@@ -128,7 +130,29 @@
      grid-column: 1/-1;
      grid-row: 9/10;
    }
+   /*tavlingar.html slutar*/
 
+   /*tri.html*/
+
+   /*tri.html slutar*/
+
+   /*index.html*/
+
+   #imagecontainer{
+     grid-column:1/-1 ;
+     grid-row:2/4;
+   }
+
+   .starttext{
+     grid-column:1/-1 ;
+     grid-row:5/8;
+   }
+
+  .swetrilink{
+    grid-column:1/-1 ;
+    grid-row:8/9;
+  }
+   /*index.html slutar*/
 
 
 }
