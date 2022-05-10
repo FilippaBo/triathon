@@ -2,13 +2,14 @@
 *{
   margin: 0;
   padding: 0;
-font-family: 'lato';
+font-family: 'Quicksand', sans-serif;
+font-weight: lighter;
 }
 
 nav {
   background-color:rgba(245, 245, 245, 1);
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   margin: auto;
   padding-top: 5%;
@@ -22,16 +23,11 @@ nav {
 .color {
 color: black;
   text-decoration: none;
+  font-weight: bold;
+
 }
 
-/*hemknappen ska sitta lite längre åt vänster */
-.home {
-  margin-left: 10%;
-}
 
-.rc {
-  margin-right: : 10%;
-}
 
 
 .body{
@@ -50,12 +46,13 @@ color: black;
 
 
 .rubrik{
-  font-size: 250%;
+  font-size: 300%;
     color: black;
     text-align: center;
     align-self:self-end;
     z-index: 3;
-  font-family: 'DM Serif Display', serif;
+   font-family: 'Julius Sans One', sans-serif;
+   font-weight: lighter;
   margin-top: 12%;
 }
 
@@ -63,7 +60,7 @@ color: black;
 .starttext{
   margin-top: 10%;
   text-align: center;
-  font-size: 100%;
+  font-size: 150%;
 
 }
 
@@ -71,6 +68,7 @@ color: black;
 text-decoration: underline;
 color: black;
 text-align: center;
+font-size: 150%;
 
 
 }
@@ -195,13 +193,19 @@ text-align: center;
   font-size: 150%;
 }
 
-.racelista{
+.listamedrace{
 height: 100%;
 font-size: 125%;
-padding-left: 10%;
+margin-right: 10%;
+margin-left: 10%;
 list-style-type:none;
 }
 
+.racelink{
+  text-decoration: underline;
+  color: black;
+
+}
 .arlandaimg{
   width: 100%;
   margin-bottom: 10%;

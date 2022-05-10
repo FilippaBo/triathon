@@ -63,7 +63,7 @@
   grid-row: 7/8;
 }
 
-.racelista{
+.listamedrace{
   grid-column: 1/4;
   grid-row: 9/15;
 }
@@ -103,7 +103,7 @@
      grid-row: 2/3;
    }
 
-   .racelista{
+   .listamedrace{
      grid-column: 1/-1;
      grid-row: 3/4;
    }
@@ -133,6 +133,7 @@
 
 }
 
+/* race mobil slutar*/
 
 /* tri startar*/
 
