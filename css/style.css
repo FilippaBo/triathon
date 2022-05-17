@@ -28,6 +28,7 @@ color: black;
 }
 
 
+/*fonter*/
 
 /* vietnamese */
 @font-face {
@@ -59,15 +60,6 @@ color: black;
 
 
 
-
-
-
-
-
-
-
-
-
 .body{
   background-color:;
 }
@@ -94,7 +86,6 @@ color: black;
     text-align: center;
     align-self:self-end;
     z-index: 3;
-   font-family: 'Julius Sans One', sans-serif;
    font-weight: lighter;
   margin-top: 12%;
 }
